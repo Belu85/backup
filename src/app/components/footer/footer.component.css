@@ -1,0 +1,33 @@
+.row{
+    background-color: #121b22;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: azure;
+    padding: 40px;
+}
+
+@media (min-width:576px){
+    p footer {
+        position: absolute;
+        color: azure;
+        background-color: #121b22;
+        text-align: center;
+        margin-left: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+        
+}
+
+
+@media (max-width:575px){
+    p footer{
+        position: absolute;
+        color: azure;
+        background-color: #121b22;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 8px;
+}
+
+}
